@@ -8,7 +8,7 @@ function segwayTimer() {
   setTimeout(function(){
     $('#segway').hide();
     $("#sliderPage").show();
-  }, 2000);
+  }, 5000);
 }
 
 $(document).ready(function() {
@@ -21,8 +21,6 @@ $(document).ready(function() {
     output.innerHTML = this.value;
     const sliderValue = output.innerHTML;
     spotifyValance = (parseInt(sliderValue)) / 100;
-    console.log(sliderValue);
-    console.log(spotifyValance);
     if (sliderValue < 10) {
       output.innerHTML = '"sad"';
       $('#depressed').show();
@@ -42,10 +40,10 @@ $(document).ready(function() {
     } else if (sliderValue < 80) {
       output.innerHTML = "¡Happy!";
     } else if (sliderValue < 90) {
-      output.innerHTML = "Probably Annoying You With MY POSITIVITY!!";
+      output.innerHTML = "Probably skipping around or something dumb! Gosh!";
       $('#rainbows').hide();
     } else {
-      output.innerHTML = "Shitting Fucking Rainbows";
+      output.innerHTML = "good";
       $('#rainbows').show();
     }
   }
@@ -61,8 +59,6 @@ $(document).ready(function() {
     console.log(window.location)
     var uriHash= window.location.hash //holds the access token
     var accessToken = uriHash.replace('#access_token=', '')
-    // console.log(spotifyValance);
-    // console.log(genre);
     var apiURL= `https://api.spotify.com/v1/recommendations?limit=12&market=US&seed_genres=${genre}&target_valence=${spotifyValance}`
     $.ajax({
       url: apiURL,
@@ -85,7 +81,6 @@ $(document).ready(function() {
         $("#h5-12").append("<h5>12 - "+response.tracks[11].name+" by "+response.tracks[11].album.artists[0].name+",<br>"+ " on the album " +response.tracks[11].album.name+"</h5>")
         $("#img-1").attr("src", response.tracks[0].album.images[1].url);
         $("#img-2").attr("src", response.tracks[11].album.images[1].url);
-
       },
       error: function(r){
         console.log(r);
