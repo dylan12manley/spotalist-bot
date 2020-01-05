@@ -131,6 +131,15 @@ a:hover {
   background-image: url("https://media.giphy.com/media/Rki7fShXrJ3JZCpVeb/giphy.gif");
 }
 
+#makePlaylist {
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  border: 0.5rem double rgb(255, 255, 255, 0.8);
+  z-index: +1;
+  color: lightgrey;
+  font-weight: 450;
+}
+
 #congrats {
   padding-top: 300px;
   text-align:center;
