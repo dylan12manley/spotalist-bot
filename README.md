@@ -10,6 +10,18 @@ _This application creates a custom generated playlist based on user inputted Gen
 
 _https://3t8u.github._
 
+## Setup/Installation Requirements
+
+* _Clone the repository from github_
+* _Initialize the file and install the Webpack_
+* _Run the Webpack in developer mode ($ NPM RUN START)_
+* _Press the Start button_
+* _When prompted, log into Spotify_
+* _Select your current genre preference_
+* _Adjust the mood slider to reflect the mood desired for your playlist_
+* _Click the "SpottyFry my playlist" button_
+* _Lean into your mood and enjoy the playlist!!!_
+
 ##Specs
 
 * _The application makers an Api call to the Spotify Api_
@@ -48,24 +60,6 @@ _https://3t8u.github._
       on the album The Black Parade
       12 - Newspaper Mama by Peter Combe,
       on the album Wash Your Face in Orange Juice_
-
-
-
-
-## Setup/Installation Requirements
-
-* _Clone the repository from github_
-* _Initialize the file and install the Webpack_
-* _Run the Webpack in developer mode ($ NPM RUN START)_
-* _Press the Start button_
-* _When prompted, log into Spotify_
-* _Select your current genre preference_
-* _Adjust the mood slider to reflect the mood desired for your playlist_
-* _Click the "SpottyFry my playlist" button_
-* _Lean into your mood and enjoy the playlist!!!_
-
-
-__
 
 ## Known Bugs
 
