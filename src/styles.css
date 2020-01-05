@@ -12,7 +12,7 @@
   border: 0.5rem double rgb(255, 255, 255, 0.8);
   z-index: +1;
   margin-left: 45vw;
-  margin-top: 8vw;
+  margin-top: 22vw;
 }
 
 #titleA {
@@ -26,14 +26,19 @@
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vw;
-  width: 100vw;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  height: 75vw;
+  width: 90vw;
+  padding-left: 12vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
 }
 
 body {
-  background-color: black;
+  background: linear-gradient(87deg, rgba(124,117,152,1) 0%, rgba(210,105,190,0.9808298319327731) 26%, rgba(223,125,125,1) 45%, rgba(185,67,52,0.8071603641456583) 74%, rgba(237,144,73,1) 94%, rgba(229,247,125,1) 100%);
+  background-image: url("http://getwallpapers.com/wallpaper/full/1/9/9/123374.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #results {
@@ -42,8 +47,6 @@ body {
   background-color: #E5F77D;
   background: linear-gradient(178deg, rgba(124,117,152,1) 0%, rgba(210,105,190,0.9808298319327731) 26%, rgba(223,125,125,1) 45%, rgba(185,67,52,0.8071603641456583) 74%, rgba(237,144,73,1) 94%, rgba(229,247,125,1) 100%);
   padding: 5%;
-  background-repeat: no-repeat;
-
 }
 
 #img-1 {
@@ -60,12 +63,15 @@ h5 {
 
 .container {
   position: relative;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 4vw;
   text-align: center;
   color: rgb(255, 255, 255, 0.9);
 }
 
 .flex-container {
-  height: 100vw;
+  height: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -79,7 +85,7 @@ h5 {
   transform: translate(-50%, -50%);
   color: rgb(255, 219, 77, 0.9);
   font-family: 'Montserrat Subrayada', sans-serif;
-  font-size: 36px;
+  font-size: 4.8vw;
   text-shadow:
   -.5px -.5px 0 black,
   .5px -.5px 0 black,
@@ -88,12 +94,12 @@ h5 {
 }
 
 .genreImg {
-  height: 29vw;
-  width: 32vw;
+  height: 26vw;
+  width: 27.5vw;
 }
 
 img {
-  border-radius: 15px 50px;
+  border-radius: 7%;
 }
 
 #shrugs {
@@ -107,7 +113,7 @@ a {
 .centered:hover {
   color: rgb(255, 219, 77, 0.9);
   font-family: 'Bungee Inline', cursive;
-  font-size: 38px;
+  font-size: 5.4vw;
 }
 
 a:hover {
@@ -178,7 +184,7 @@ a:hover {
 #valenceText {
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  font-size: 45px
+  font-size: 4vw;
 }
 
 .slider {

@@ -40,7 +40,7 @@ $(document).ready(function() {
     } else if (sliderValue < 80) {
       output.innerHTML = "¡Happy!";
     } else if (sliderValue < 90) {
-      output.innerHTML = "Probably skipping around or something dumb! Gosh!";
+      output.innerHTML = "Probably skipping around or something dumb!";
       $('#rainbows').hide();
     } else {
       output.innerHTML = "good";
