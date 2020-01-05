@@ -42,7 +42,9 @@ body {
 }
 
 #results {
-  height: 100vw;
+  height: 130vw;
+  min-height: 775px;
+  min-width: 375px;
   display: none;
   background-color: #E5F77D;
   background: linear-gradient(178deg, rgba(124,117,152,1) 0%, rgba(210,105,190,0.9808298319327731) 26%, rgba(223,125,125,1) 45%, rgba(185,67,52,0.8071603641456583) 74%, rgba(237,144,73,1) 94%, rgba(229,247,125,1) 100%);
@@ -93,6 +95,9 @@ h5 {
   .5px .5px 0 black;
 }
 
+.btn {
+  line-height: 0.98;
+}
 .genreImg {
   height: 26vw;
   width: 27.5vw;
@@ -100,10 +105,6 @@ h5 {
 
 img {
   border-radius: 7%;
-}
-
-#shrugs {
-  border-radius: 0%;
 }
 
 a {
@@ -152,6 +153,7 @@ a:hover {
   background-image: url("https://media.giphy.com/media/Rki7fShXrJ3JZCpVeb/giphy.gif");
   height: 100vw;
   max-width: 100vw;
+  min-height: 668px;
 }
 
 #uncontainer {
@@ -159,9 +161,13 @@ a:hover {
   margin: 0;
 }
 
+#instructions {
+  padding-top: 3vw;
+}
+
 #apiButton{
   position: absolute;
-  bottom: 7.5vw;
+  bottom: 22.5vw;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 40px;
@@ -175,7 +181,7 @@ a:hover {
 }
 
 .slidecontainer {
-  margin: 25px;
+  margin-top: 17.5vw;
   margin-left: auto;
   margin-right: auto;
   width: 50%;

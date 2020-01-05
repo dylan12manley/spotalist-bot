@@ -41,10 +41,10 @@ $(document).ready(function() {
       output.innerHTML = "¡Happy!";
     } else if (sliderValue < 90) {
       output.innerHTML = "Probably skipping around or something dumb!";
-      $('#rainbows').hide();
+      // $('#rainbows').hide();
     } else {
       output.innerHTML = "good";
-      $('#rainbows').show();
+      // $('#rainbows').show();
     }
   }
 
