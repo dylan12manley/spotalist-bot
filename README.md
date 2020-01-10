@@ -1,41 +1,37 @@
-# _SpottyFried_
+# __Spotilistbot__
 
-#### _This is an application to create a unique music playlist for a user _
+### This application builds a unique playlist using spotify.
 
-#### By _**Nate Powers, Dylan Manley, Kyle Wymer, George Acosta & Eliza Sohn**_
+###### _Developed by Dylan Manley with partners Nate Powers, Kyle Wymer, George Acosta & Eliza Sohn._
 
 ## Description
 
-_This application creates a custom generated playlist based on user inputted Genre & Mood. The user logs into Spotify, selects a genre and a mood range and is given a suggested playlist using the Spotify Api.
-
-_https://3t8u.github._
+This application creates a custom generated playlist based on user inputted Genre & Mood.
+The user logs into Spotify, selects a genre and a mood range.
+The program creates, updates and posts the playlist using calls to the Spotify Api.
 
 ## Setup/Installation Requirements
 
-* _Clone the repository from github_
-* _Initialize the file and install the Webpack_
-* _Run the Webpack in developer mode ($ NPM RUN START)_
-* _Press the Start button_
-* _When prompted, log into Spotify_
-* _Select your current genre preference_
-* _Adjust the mood slider to reflect the mood desired for your playlist_
-* _Click the "SpottyFry my playlist" button_
-* _Lean into your mood and enjoy the playlist!!!_
+* Clone this repository. Enter [__git clone https://github.com/dylan12manley/spotifytest.git__] in the terminal.
+* Move into project folder by entering [__$ cd spotilistbot__]
+* Initialize the file and install the Webpack by entering [__$ webpack install__] in the terminal.
+* Run the Webpack in developer mode [__$ NPM RUN START__] in the terminal.
+* The application will open in your browser. Or, enter localhost:8080 in your browsers addressbar.
+* To utilize the app, press the __Start__ button to begin.
+* Follow the given prompts to create a playlist.
 
-##Specs
+## Specs
 
-* _The application makers an Api call to the Spotify Api_
+* The application makes an Api call to the Spotify Api
+* The Spotify Api authorizes the user and the Application by an 0Auth process of creating and passing a unique token
+* The Application takes a user selected genre and inserts it into the Api call
+* The Application takes a user selected valence, converts it into decimal form and inserts it into the Api call
+* The application sends the Api call with the user generated genre & valence to the Spotify Api
 
-* _The Spotify Api authorizes the user and the Application by a 0Auth process of creating and passing a unique token_
+ Example Input: _User selects "Metal" & a valence of "Shitting Fucking Rainbows"_
 
-* _The Application takes a user selected genre and inserts it into the Api call_
+ Example Output: _Your Very Own SpottyFried Playlist!_
 
-* _The Application takes a user selected valence, converts it into decimal form and inserts it into the Api call_
-
-* _The application sends the Api call with the user generated genre & valence to the Spotify Api_
-
-  * _Example Input: User selects "Metal" & a valence of "Shitting Fucking Rainbows"_
-  * _Example Output: Your Very Own SpottyFried Playlist!
       1 - Witch Doctor - Remastered 1999 by Alvin & The Chipmunks,
       on the album Greatest Hits: Still Squeaky After All These Years
       2 - His Banner Over Me Is Love by Cedarmont Kids,
@@ -67,7 +63,7 @@ _No known bugs_
 
 ## Support and contact details
 
-_Any questions, comments or contributions please contact Eliza Sohn(eliza.sohn@gmail.com), George Acosta (georgeacostar@gmail.com), Kyle Wymer (wymerkd@gmail.com), Dylan Manley (dylan.manley@gmail.com) or (Nate Powers (Russellsproutz@Gmail.com) _
+_Any questions, comments or contributions please contact Dylan Manley (dylan.manley@gmail.com), Eliza Sohn(eliza.sohn@gmail.com), George Acosta (georgeacostar@gmail.com), Kyle Wymer (wymerkd@gmail.com), or (Nate Powers (Russellsproutz@Gmail.com)_
 
 ## Technologies Used
 
@@ -75,7 +71,7 @@ _HTML, CSS, Bootstrap, Git, jQuery and Javascript, Webpack, Jest, Nodejs, Eslint
 
 ### License
 
-*The MIT License
+__The MIT License__
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -96,6 +92,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.*
 
-Copyright (c) 2019 **_Nate Powers, Dylan Manley, Kyle Wymer, George Acosta & Eliza Sohn_**
+Copyright (c) 2019 **Dylan Manley, Nate Powers, Kyle Wymer, George Acosta & Eliza Sohn_**
 
-wymerkd@gmail.com   dylan.manley@gmail.com  georgeacostar@gmail.com eliza.sohn@gmail.com
+dylan.manley@gmail.com wymerkd@gmail.com georgeacostar@gmail.com eliza.sohn@gmail.com
