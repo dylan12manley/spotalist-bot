@@ -19,15 +19,21 @@
   margin-top: 5vw;
   margin-left: 41vw
 }
-
-#genreBoxes {
+#genreBoxes{
   display: none;
   background-image: url("http://getwallpapers.com/wallpaper/full/1/9/9/123374.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 75vw;
-  width: 90vw;
+  padding-top: 6vw;
+  max-height: 880px;
+  max-width: 880px;
+}
+
+#genreContainer {
+
+  height: 70vw;
+  width: 85vw;
   padding-left: 12vw;
   padding-right: 2vw;
   padding-top: 2vw;
@@ -100,7 +106,9 @@ h5 {
 }
 .genreImg {
   height: 26vw;
+  max-height: 243px;
   width: 27.5vw;
+  max-width: 230px;
 }
 
 img {
