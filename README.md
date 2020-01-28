@@ -1,4 +1,4 @@
-# __Spotilistbot__
+# __Spotalist-bot__
 
 ### This application builds a unique playlist using spotify.
 
@@ -63,7 +63,7 @@ _No known bugs_
 
 ## Support and contact details
 
-_Any questions, comments or contributions please contact Dylan Manley (dylan.manley@gmail.com), Eliza Sohn(eliza.sohn@gmail.com), George Acosta (georgeacostar@gmail.com), Kyle Wymer (wymerkd@gmail.com), or (Nate Powers (Russellsproutz@Gmail.com)_
+_Any questions, comments or contributions please contact Dylan Manley (dylan.manley@gmail.com), Eliza Sohn(eliza.sohn@gmail.com), George Acosta (georgeacostar@gmail.com), Kyle Wymer (wymerkd@gmail.com), or Nate Powers (Russellsproutz@Gmail.com)_
 
 ## Technologies Used
 
