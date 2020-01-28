@@ -2,7 +2,7 @@
 
 ### This application builds a unique playlist using spotify.
 
-###### _Developed by Dylan Manley with partners Nate Powers, Kyle Wymer, George Acosta & Eliza Sohn._
+###### _Developed by Dylan Manley, Nate Powers, Kyle Wymer, George Acosta & Eliza Sohn._
 
 ## Description
 
